@@ -32,14 +32,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.txtNguyenNghia = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtCourseName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(278, 131);
+            this.label1.Location = new System.Drawing.Point(313, 164);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 16);
+            this.label1.Size = new System.Drawing.Size(112, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -52,18 +54,38 @@
             // 
             // txtNguyenNghia
             // 
-            this.txtNguyenNghia.Location = new System.Drawing.Point(374, 131);
+            this.txtNguyenNghia.Location = new System.Drawing.Point(421, 164);
+            this.txtNguyenNghia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNguyenNghia.Name = "txtNguyenNghia";
-            this.txtNguyenNghia.Size = new System.Drawing.Size(100, 22);
+            this.txtNguyenNghia.Size = new System.Drawing.Size(112, 26);
             this.txtNguyenNghia.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(313, 220);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "CourseName";
+            // 
+            // txtCourseName
+            // 
+            this.txtCourseName.Location = new System.Drawing.Point(421, 217);
+            this.txtCourseName.Name = "txtCourseName";
+            this.txtCourseName.Size = new System.Drawing.Size(100, 26);
+            this.txtCourseName.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.Controls.Add(this.txtCourseName);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNguyenNghia);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -76,6 +98,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox txtNguyenNghia;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtCourseName;
     }
 }
 
